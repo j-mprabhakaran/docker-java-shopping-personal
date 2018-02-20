@@ -1,0 +1,17 @@
+version: '2'
+services:
+  shopfront:
+    image: pjayaramanma/djshopfront
+    ports:
+     - "8010:8010"
+    links:
+      - productcatalogue
+      - stockmanager
+  productcatalogue:
+    image: pjayaramanma/djproductcatalogue
+    ports:
+     - "8020:8020"
+  stockmanager:
+    image: pjayaramanma/djstockmanager
+    ports:
+     - "8030:8030"
