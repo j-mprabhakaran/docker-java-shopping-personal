@@ -1,4 +1,4 @@
-dxc.co.pjayaramanma uk.co.danielbryant.djshopping.productcatalogue.healthchecks;
+package dxc.co.pjayaramanma.djshopping.productcatalogue.healthchecks;
 
 import com.codahale.metrics.health.HealthCheck;
 
