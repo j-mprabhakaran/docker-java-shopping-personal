@@ -12,6 +12,6 @@ services:
     ports:
      - "8020:8020"
   stockmanager:
-    image: pjayaramanma /djstockmanager
+    image: pjayaramanma/djstockmanager
     ports:
      - "8030:8030"
